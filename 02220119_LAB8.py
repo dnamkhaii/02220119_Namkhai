@@ -5,7 +5,7 @@ class Node:
         self.left = None
         self.right = None
         self.parent = None
-        
+
 class RedBlackTree:
     def __init__(self):
         self.NIL = Node(value=None, color='black')  # Sentinel node
